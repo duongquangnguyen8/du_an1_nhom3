@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "250523984785",
+    "project_id": "duanquanlynhatro",
+    "storage_bucket": "duanquanlynhatro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250523984785:android:ae67f1eb0d2245c6103030",
+        "android_client_info": {
+          "package_name": "com.example.bduan1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGIdxOpx35lrk8ZN0EjC9bW9Ai3uhn-Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250523984785:android:c81db107cab87075103030",
+        "android_client_info": {
+          "package_name": "com.example.duan1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGIdxOpx35lrk8ZN0EjC9bW9Ai3uhn-Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

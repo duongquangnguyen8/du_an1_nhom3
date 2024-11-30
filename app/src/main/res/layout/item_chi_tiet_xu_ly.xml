@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phản hồi yêu cầu"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="10dp" />
+
+    <!-- Yêu cầu -->
+    <TextView
+        android:id="@+id/tv_yeu_cau_xl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yêu cầu: Xử lý nước"
+        android:textSize="16sp"
+        android:paddingBottom="5dp" />
+
+    <!-- Trạng thái -->
+    <TextView
+        android:id="@+id/tv_trang_thai_xl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái: Chưa xử lý"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:paddingBottom="10dp" />
+
+    <!-- Phản hồi -->
+    <EditText
+        android:id="@+id/ed_phan_hoi_xl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phản hồi đến khách thuê..."
+        android:background="@android:drawable/editbox_background_normal"
+        android:minHeight="100dp"
+        android:padding="8dp"
+        android:gravity="top|start"
+        android:inputType="textMultiLine" />
+
+    <!-- Nút hành động -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/btn_huy_xl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:backgroundTint="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/btn_gui_xl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gửi"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@android:color/holo_blue_dark" />
+    </LinearLayout>
+</LinearLayout>

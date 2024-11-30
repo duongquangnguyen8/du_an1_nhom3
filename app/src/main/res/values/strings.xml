@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">bduan1</string>
+    <string-array name="trang_thai_phong">
+        <item>Đã cho thuê</item>
+        <item>Còn trống</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
